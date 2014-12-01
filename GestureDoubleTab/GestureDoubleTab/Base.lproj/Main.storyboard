@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mN7-Gl-HB4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="9QF-rF-1wO">
+            <objects>
+                <viewController id="mN7-Gl-HB4" customClass="ViewController" customModule="GestureDoubleTab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oAG-z3-78b"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Sb-t7-2iV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sOK-FS-5q7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagen1.png" translatesAutoresizingMaskIntoConstraints="NO" id="j8Y-dG-RKE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="568" id="qyZ-SH-GBR"/>
+                                    <constraint firstAttribute="width" constant="320" id="v0I-v9-qpe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="j8Y-dG-RKE" firstAttribute="top" secondItem="sOK-FS-5q7" secondAttribute="topMargin" id="6NO-eL-gBR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j8Y-dG-RKE" secondAttribute="trailing" constant="-16" id="ab5-tr-mgd"/>
+                            <constraint firstItem="3Sb-t7-2iV" firstAttribute="top" secondItem="j8Y-dG-RKE" secondAttribute="bottom" id="boX-5U-1wr"/>
+                            <constraint firstItem="j8Y-dG-RKE" firstAttribute="leading" secondItem="sOK-FS-5q7" secondAttribute="leadingMargin" constant="-16" id="ig0-7L-9Xh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagen" destination="j8Y-dG-RKE" id="hAU-hn-tfy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0cd-zp-iWy" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.755555555555546" y="346.82080000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="imagen1.png" width="800" height="800"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

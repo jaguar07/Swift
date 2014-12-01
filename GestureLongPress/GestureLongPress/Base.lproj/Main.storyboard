@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xQK-W9-lFo">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QGH-p5-Phx">
+            <objects>
+                <viewController id="xQK-W9-lFo" customClass="ViewController" customModule="T8E3Ampliacion2CarlosButron" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MQl-sI-OZm"/>
+                        <viewControllerLayoutGuide type="bottom" id="rhR-t5-636"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J12-YJ-9js">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dp6-rL-gh4">
+                                <rect key="frame" x="5" y="94" width="315" height="354"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="VSv-Hc-9yl"/>
+                                    <constraint firstAttribute="width" secondItem="Dp6-rL-gh4" secondAttribute="height" multiplier="105:118" id="iWm-WK-0e2"/>
+                                    <constraint firstAttribute="height" constant="354" id="zeT-1b-Tuf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dp6-rL-gh4" firstAttribute="top" secondItem="MQl-sI-OZm" secondAttribute="bottom" constant="74" id="27G-IJ-EGx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dp6-rL-gh4" secondAttribute="trailing" constant="-16" id="IGQ-Vg-0EO"/>
+                            <constraint firstItem="Dp6-rL-gh4" firstAttribute="leading" secondItem="J12-YJ-9js" secondAttribute="leadingMargin" constant="-11" id="ak9-hw-SmZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="Dp6-rL-gh4" id="8cX-gw-6Ik"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59r-E6-naY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple.png" width="500" height="550"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
