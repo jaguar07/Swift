@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ODE-g8-1zt">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="080-YP-Z8F">
+            <objects>
+                <viewController id="ODE-g8-1zt" customClass="ViewController" customModule="T16E2CarlosButron" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6LN-Qm-ecs"/>
+                        <viewControllerLayoutGuide type="bottom" id="TK8-DH-6tv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h8T-Hc-6gz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q2A-NK-hj1">
+                                <rect key="frame" x="29" y="278" width="262" height="282"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="2gB-Y3-abO"/>
+                                    <constraint firstAttribute="height" constant="282" id="wKX-Ba-8bc"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NE6-gQ-cPT">
+                                <rect key="frame" x="64" y="28" width="192" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="FyB-Kf-Dvh"/>
+                                    <constraint firstAttribute="width" constant="192" id="oYX-E1-7my"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3s-sF-wbG">
+                                <rect key="frame" x="64" y="225" width="192" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="I2B-YZ-l2i"/>
+                                    <constraint firstAttribute="width" constant="192" id="aF2-ZP-mmw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q2A-NK-hj1" firstAttribute="top" secondItem="g3s-sF-wbG" secondAttribute="bottom" constant="32" id="81H-vI-R7W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NE6-gQ-cPT" secondAttribute="trailing" constant="48" id="Bx7-vj-hGX"/>
+                            <constraint firstItem="NE6-gQ-cPT" firstAttribute="leading" secondItem="h8T-Hc-6gz" secondAttribute="leadingMargin" constant="48" id="Efu-L4-SbG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q2A-NK-hj1" secondAttribute="trailing" constant="13" id="Gkx-ic-z1q"/>
+                            <constraint firstItem="q2A-NK-hj1" firstAttribute="top" secondItem="g3s-sF-wbG" secondAttribute="bottom" constant="32" id="UVu-vR-nfS"/>
+                            <constraint firstItem="NE6-gQ-cPT" firstAttribute="top" secondItem="6LN-Qm-ecs" secondAttribute="bottom" constant="8" id="Y9q-3n-FqC"/>
+                            <constraint firstItem="g3s-sF-wbG" firstAttribute="top" secondItem="NE6-gQ-cPT" secondAttribute="bottom" constant="33" id="cEg-K2-Gpw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g3s-sF-wbG" secondAttribute="trailing" constant="48" id="gnZ-jh-lrv"/>
+                            <constraint firstItem="q2A-NK-hj1" firstAttribute="leading" secondItem="h8T-Hc-6gz" secondAttribute="leadingMargin" constant="13" id="mwa-x8-oJR"/>
+                            <constraint firstItem="g3s-sF-wbG" firstAttribute="leading" secondItem="h8T-Hc-6gz" secondAttribute="leadingMargin" constant="48" id="ubA-bN-haH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descripcion" destination="q2A-NK-hj1" id="r3I-Br-p7e"/>
+                        <outlet property="imagen" destination="NE6-gQ-cPT" id="fWe-YD-MJb"/>
+                        <outlet property="titulo" destination="g3s-sF-wbG" id="r0n-uc-6KN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IfY-5E-9XQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="366"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
