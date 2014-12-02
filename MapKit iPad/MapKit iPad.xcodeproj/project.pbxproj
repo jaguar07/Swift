@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078280F51A2D47FB00759CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078280F41A2D47FB00759CE8 /* AppDelegate.swift */; };
+		078280F71A2D47FB00759CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078280F61A2D47FB00759CE8 /* ViewController.swift */; };
+		078280FA1A2D47FB00759CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078280F81A2D47FB00759CE8 /* Main.storyboard */; };
+		078280FC1A2D47FB00759CE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078280FB1A2D47FB00759CE8 /* Images.xcassets */; };
+		078280FF1A2D47FB00759CE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078280FD1A2D47FB00759CE8 /* LaunchScreen.xib */; };
+		0782810B1A2D47FB00759CE8 /* MapKit_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0782810A1A2D47FB00759CE8 /* MapKit_iPadTests.swift */; };
+		078281151A2D480600759CE8 /* mypin.png in Resources */ = {isa = PBXBuildFile; fileRef = 078281141A2D480600759CE8 /* mypin.png */; };
+		078281171A2D480E00759CE8 /* MiAnotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078281161A2D480E00759CE8 /* MiAnotacion.swift */; };
+		078281191A2D482B00759CE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078281181A2D482B00759CE8 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078281051A2D47FB00759CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078280E71A2D47FB00759CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078280EE1A2D47FB00759CE8;
+			remoteInfo = "MapKit iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078280EF1A2D47FB00759CE8 /* MapKit iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapKit iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078280F31A2D47FB00759CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078280F41A2D47FB00759CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078280F61A2D47FB00759CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		078280F91A2D47FB00759CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078280FB1A2D47FB00759CE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		078280FE1A2D47FB00759CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		078281041A2D47FB00759CE8 /* MapKit iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapKit iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078281091A2D47FB00759CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0782810A1A2D47FB00759CE8 /* MapKit_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit_iPadTests.swift; sourceTree = "<group>"; };
+		078281141A2D480600759CE8 /* mypin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mypin.png; sourceTree = "<group>"; };
+		078281161A2D480E00759CE8 /* MiAnotacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiAnotacion.swift; sourceTree = "<group>"; };
+		078281181A2D482B00759CE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078280EC1A2D47FB00759CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078281191A2D482B00759CE8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078281011A2D47FB00759CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078280E61A2D47FB00759CE8 = {
+			isa = PBXGroup;
+			children = (
+				078281181A2D482B00759CE8 /* MapKit.framework */,
+				078280F11A2D47FB00759CE8 /* MapKit iPad */,
+				078281071A2D47FB00759CE8 /* MapKit iPadTests */,
+				078280F01A2D47FB00759CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078280F01A2D47FB00759CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078280EF1A2D47FB00759CE8 /* MapKit iPad.app */,
+				078281041A2D47FB00759CE8 /* MapKit iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078280F11A2D47FB00759CE8 /* MapKit iPad */ = {
+			isa = PBXGroup;
+			children = (
+				078281141A2D480600759CE8 /* mypin.png */,
+				078280F41A2D47FB00759CE8 /* AppDelegate.swift */,
+				078280F61A2D47FB00759CE8 /* ViewController.swift */,
+				078281161A2D480E00759CE8 /* MiAnotacion.swift */,
+				078280F81A2D47FB00759CE8 /* Main.storyboard */,
+				078280FB1A2D47FB00759CE8 /* Images.xcassets */,
+				078280FD1A2D47FB00759CE8 /* LaunchScreen.xib */,
+				078280F21A2D47FB00759CE8 /* Supporting Files */,
+			);
+			path = "MapKit iPad";
+			sourceTree = "<group>";
+		};
+		078280F21A2D47FB00759CE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078280F31A2D47FB00759CE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		078281071A2D47FB00759CE8 /* MapKit iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				0782810A1A2D47FB00759CE8 /* MapKit_iPadTests.swift */,
+				078281081A2D47FB00759CE8 /* Supporting Files */,
+			);
+			path = "MapKit iPadTests";
+			sourceTree = "<group>";
+		};
+		078281081A2D47FB00759CE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078281091A2D47FB00759CE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078280EE1A2D47FB00759CE8 /* MapKit iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0782810E1A2D47FB00759CE8 /* Build configuration list for PBXNativeTarget "MapKit iPad" */;
+			buildPhases = (
+				078280EB1A2D47FB00759CE8 /* Sources */,
+				078280EC1A2D47FB00759CE8 /* Frameworks */,
+				078280ED1A2D47FB00759CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapKit iPad";
+			productName = "MapKit iPad";
+			productReference = 078280EF1A2D47FB00759CE8 /* MapKit iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078281031A2D47FB00759CE8 /* MapKit iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078281111A2D47FB00759CE8 /* Build configuration list for PBXNativeTarget "MapKit iPadTests" */;
+			buildPhases = (
+				078281001A2D47FB00759CE8 /* Sources */,
+				078281011A2D47FB00759CE8 /* Frameworks */,
+				078281021A2D47FB00759CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078281061A2D47FB00759CE8 /* PBXTargetDependency */,
+			);
+			name = "MapKit iPadTests";
+			productName = "MapKit iPadTests";
+			productReference = 078281041A2D47FB00759CE8 /* MapKit iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078280E71A2D47FB00759CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Carlos Butron";
+				TargetAttributes = {
+					078280EE1A2D47FB00759CE8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					078281031A2D47FB00759CE8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 078280EE1A2D47FB00759CE8;
+					};
+				};
+			};
+			buildConfigurationList = 078280EA1A2D47FB00759CE8 /* Build configuration list for PBXProject "MapKit iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078280E61A2D47FB00759CE8;
+			productRefGroup = 078280F01A2D47FB00759CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078280EE1A2D47FB00759CE8 /* MapKit iPad */,
+				078281031A2D47FB00759CE8 /* MapKit iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078280ED1A2D47FB00759CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078280FA1A2D47FB00759CE8 /* Main.storyboard in Resources */,
+				078281151A2D480600759CE8 /* mypin.png in Resources */,
+				078280FF1A2D47FB00759CE8 /* LaunchScreen.xib in Resources */,
+				078280FC1A2D47FB00759CE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078281021A2D47FB00759CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078280EB1A2D47FB00759CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078280F71A2D47FB00759CE8 /* ViewController.swift in Sources */,
+				078281171A2D480E00759CE8 /* MiAnotacion.swift in Sources */,
+				078280F51A2D47FB00759CE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078281001A2D47FB00759CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0782810B1A2D47FB00759CE8 /* MapKit_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078281061A2D47FB00759CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078280EE1A2D47FB00759CE8 /* MapKit iPad */;
+			targetProxy = 078281051A2D47FB00759CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078280F81A2D47FB00759CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078280F91A2D47FB00759CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		078280FD1A2D47FB00759CE8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078280FE1A2D47FB00759CE8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0782810C1A2D47FB00759CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0782810D1A2D47FB00759CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0782810F1A2D47FB00759CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapKit iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		078281101A2D47FB00759CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MapKit iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		078281121A2D47FB00759CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapKit iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKit iPad.app/MapKit iPad";
+			};
+			name = Debug;
+		};
+		078281131A2D47FB00759CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapKit iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapKit iPad.app/MapKit iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078280EA1A2D47FB00759CE8 /* Build configuration list for PBXProject "MapKit iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0782810C1A2D47FB00759CE8 /* Debug */,
+				0782810D1A2D47FB00759CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0782810E1A2D47FB00759CE8 /* Build configuration list for PBXNativeTarget "MapKit iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0782810F1A2D47FB00759CE8 /* Debug */,
+				078281101A2D47FB00759CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		078281111A2D47FB00759CE8 /* Build configuration list for PBXNativeTarget "MapKit iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078281121A2D47FB00759CE8 /* Debug */,
+				078281131A2D47FB00759CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078280E71A2D47FB00759CE8 /* Project object */;
+}

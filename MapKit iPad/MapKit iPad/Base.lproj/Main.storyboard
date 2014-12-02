@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0M0-qk-Ahg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uZk-Fj-HI5">
+            <objects>
+                <viewController id="0M0-qk-Ahg" customClass="ViewController" customModule="MapKit_iPad" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="euG-aM-q5Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="gwb-9H-RH2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jsQ-HK-qm6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bof-Y3-zgn">
+                                <rect key="frame" x="0.0" y="-2" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="add" id="CMI-Pe-tCJ">
+                                        <connections>
+                                            <action selector="creaAnotacion:" destination="0M0-qk-Ahg" id="Ex2-GP-i6x"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="62" style="plain" systemItem="fixedSpace" id="pZC-IV-5G0"/>
+                                    <barButtonItem style="plain" systemItem="trash" id="s3Y-Tq-CdU">
+                                        <connections>
+                                            <action selector="borrarAnotacion:" destination="0M0-qk-Ahg" id="fjj-0T-tpY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="421" style="plain" systemItem="fixedSpace" id="qsU-7F-r2K"/>
+                                    <barButtonItem style="plain" systemItem="refresh" id="FFY-bN-aaN">
+                                        <connections>
+                                            <action selector="coordenadas:" destination="0M0-qk-Ahg" id="HEU-tt-F4b"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Tt-KP-s5Q">
+                                <rect key="frame" x="0.0" y="42" width="768" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Latitud:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZI-ai-J7K">
+                                        <rect key="frame" x="8" y="19" width="216" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Longitud:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SW-rc-fZr">
+                                        <rect key="frame" x="334" y="18" width="231" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xfj-Db-8Xn">
+                                <rect key="frame" x="0.0" y="119" width="600" height="481"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="latitud" destination="4ZI-ai-J7K" id="uzY-Mm-rwt"/>
+                        <outlet property="longitud" destination="3SW-rc-fZr" id="JlL-eb-DWo"/>
+                        <outlet property="mapa" destination="xfj-Db-8Xn" id="rZb-2K-vVC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPZ-pW-nwd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="711"/>
+        </scene>
+    </scenes>
+</document>
