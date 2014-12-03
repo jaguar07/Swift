@@ -1,8 +1,8 @@
 //
 //  CeldaPersonalizada.swift
-//  T14E2CarlosButron
+//  TableViewWithPropertyList
 //
-//  Created by Carlos Butron on 16/10/14.
+//  Created by Carlos Butron on 02/12/14.
 //  Copyright (c) 2014 Carlos Butron. All rights reserved.
 //
 
