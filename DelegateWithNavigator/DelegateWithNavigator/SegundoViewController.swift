@@ -1,6 +1,5 @@
 //
 //  SegundoViewController.swift
-//  T11E4CarlosButron
 //
 //  Created by Carlos Butron on 02/09/14.
 //  Copyright (c) 2014 Carlos Butron. All rights reserved.
@@ -20,7 +19,7 @@ class SegundoViewController: UIViewController {
     @IBOutlet weak var labelSegundo: UILabel!
     
     @IBAction func botonSegundo(sender: AnyObject) {
-        self.delegate?.escribirDatoEnLabel("¡Lo logré!")
+        self.delegate?.escribirDatoEnLabel("¡Lo logré!")
         self.navigationController?.popViewControllerAnimated(true)
     }
 
