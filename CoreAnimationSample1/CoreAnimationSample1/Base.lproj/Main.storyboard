@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="piV-Y1-Uwh">
             <objects>
-                <viewController id="Nyw-dW-piz" customClass="ViewController" customModule="CoreAnimationSample1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Nyw-dW-piz" customClass="ViewController" customModule="T18E1CarlosButron" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5bd-iy-tNp"/>
                         <viewControllerLayoutGuide type="bottom" id="sOn-wn-Pdd"/>
