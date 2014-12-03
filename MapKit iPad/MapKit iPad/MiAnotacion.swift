@@ -1,8 +1,8 @@
 //
 //  MiAnotacion.swift
-//  T10E1CarlosButron
+//  MapKit iPad
 //
-//  Created by Carlos Butron on 31/08/14.
+//  Created by Carlos Butron on 02/12/14.
 //  Copyright (c) 2014 Carlos Butron. All rights reserved.
 //
 
