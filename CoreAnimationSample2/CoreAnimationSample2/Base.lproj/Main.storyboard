@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="QhR-pE-fCQ">
             <objects>
-                <viewController id="j5e-Ro-YVO" customClass="ViewController" customModule="T18E2CarlosButron" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j5e-Ro-YVO" customClass="ViewController" customModule="CoreAnimationSample2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Rr-se-i27"/>
                         <viewControllerLayoutGuide type="bottom" id="f3B-UQ-rhr"/>
