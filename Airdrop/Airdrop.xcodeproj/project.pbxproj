@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075FD3011A34AB1B00513A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD3001A34AB1B00513A3A /* AppDelegate.swift */; };
+		075FD3031A34AB1B00513A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD3021A34AB1B00513A3A /* ViewController.swift */; };
+		075FD3061A34AB1B00513A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FD3041A34AB1B00513A3A /* Main.storyboard */; };
+		075FD3081A34AB1B00513A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075FD3071A34AB1B00513A3A /* Images.xcassets */; };
+		075FD30B1A34AB1B00513A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FD3091A34AB1B00513A3A /* LaunchScreen.xib */; };
+		075FD3171A34AB1B00513A3A /* AirdropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD3161A34AB1B00513A3A /* AirdropTests.swift */; };
+		075FD3221A34B4C000513A3A /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD3201A34B4C000513A3A /* ImagenViewController.swift */; };
+		075FD3231A34B4C000513A3A /* URLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FD3211A34B4C000513A3A /* URLViewController.swift */; };
+		075FD3251A34B4CB00513A3A /* imagen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 075FD3241A34B4CB00513A3A /* imagen2.png */; };
+		075FD3271A34B54F00513A3A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075FD3261A34B54F00513A3A /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075FD3111A34AB1B00513A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FD2F31A34AB1B00513A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075FD2FA1A34AB1B00513A3A;
+			remoteInfo = Airdrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075FD2FB1A34AB1B00513A3A /* Airdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FD2FF1A34AB1B00513A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075FD3001A34AB1B00513A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		075FD3021A34AB1B00513A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		075FD3051A34AB1B00513A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075FD3071A34AB1B00513A3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		075FD30A1A34AB1B00513A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		075FD3101A34AB1B00513A3A /* AirdropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirdropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FD3151A34AB1B00513A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075FD3161A34AB1B00513A3A /* AirdropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirdropTests.swift; sourceTree = "<group>"; };
+		075FD3201A34B4C000513A3A /* ImagenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		075FD3211A34B4C000513A3A /* URLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLViewController.swift; sourceTree = "<group>"; };
+		075FD3241A34B4CB00513A3A /* imagen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagen2.png; sourceTree = "<group>"; };
+		075FD3261A34B54F00513A3A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075FD2F81A34AB1B00513A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FD3271A34B54F00513A3A /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FD30D1A34AB1B00513A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075FD2F21A34AB1B00513A3A = {
+			isa = PBXGroup;
+			children = (
+				075FD3261A34B54F00513A3A /* MediaPlayer.framework */,
+				075FD2FD1A34AB1B00513A3A /* Airdrop */,
+				075FD3131A34AB1B00513A3A /* AirdropTests */,
+				075FD2FC1A34AB1B00513A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		075FD2FC1A34AB1B00513A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075FD2FB1A34AB1B00513A3A /* Airdrop.app */,
+				075FD3101A34AB1B00513A3A /* AirdropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075FD2FD1A34AB1B00513A3A /* Airdrop */ = {
+			isa = PBXGroup;
+			children = (
+				075FD3241A34B4CB00513A3A /* imagen2.png */,
+				075FD3001A34AB1B00513A3A /* AppDelegate.swift */,
+				075FD3021A34AB1B00513A3A /* ViewController.swift */,
+				075FD3201A34B4C000513A3A /* ImagenViewController.swift */,
+				075FD3211A34B4C000513A3A /* URLViewController.swift */,
+				075FD3041A34AB1B00513A3A /* Main.storyboard */,
+				075FD3071A34AB1B00513A3A /* Images.xcassets */,
+				075FD3091A34AB1B00513A3A /* LaunchScreen.xib */,
+				075FD2FE1A34AB1B00513A3A /* Supporting Files */,
+			);
+			path = Airdrop;
+			sourceTree = "<group>";
+		};
+		075FD2FE1A34AB1B00513A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				075FD2FF1A34AB1B00513A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075FD3131A34AB1B00513A3A /* AirdropTests */ = {
+			isa = PBXGroup;
+			children = (
+				075FD3161A34AB1B00513A3A /* AirdropTests.swift */,
+				075FD3141A34AB1B00513A3A /* Supporting Files */,
+			);
+			path = AirdropTests;
+			sourceTree = "<group>";
+		};
+		075FD3141A34AB1B00513A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				075FD3151A34AB1B00513A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075FD2FA1A34AB1B00513A3A /* Airdrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FD31A1A34AB1B00513A3A /* Build configuration list for PBXNativeTarget "Airdrop" */;
+			buildPhases = (
+				075FD2F71A34AB1B00513A3A /* Sources */,
+				075FD2F81A34AB1B00513A3A /* Frameworks */,
+				075FD2F91A34AB1B00513A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airdrop;
+			productName = Airdrop;
+			productReference = 075FD2FB1A34AB1B00513A3A /* Airdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		075FD30F1A34AB1B00513A3A /* AirdropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FD31D1A34AB1B00513A3A /* Build configuration list for PBXNativeTarget "AirdropTests" */;
+			buildPhases = (
+				075FD30C1A34AB1B00513A3A /* Sources */,
+				075FD30D1A34AB1B00513A3A /* Frameworks */,
+				075FD30E1A34AB1B00513A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075FD3121A34AB1B00513A3A /* PBXTargetDependency */,
+			);
+			name = AirdropTests;
+			productName = AirdropTests;
+			productReference = 075FD3101A34AB1B00513A3A /* AirdropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075FD2F31A34AB1B00513A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Carlos Butron";
+				TargetAttributes = {
+					075FD2FA1A34AB1B00513A3A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					075FD30F1A34AB1B00513A3A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 075FD2FA1A34AB1B00513A3A;
+					};
+				};
+			};
+			buildConfigurationList = 075FD2F61A34AB1B00513A3A /* Build configuration list for PBXProject "Airdrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075FD2F21A34AB1B00513A3A;
+			productRefGroup = 075FD2FC1A34AB1B00513A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075FD2FA1A34AB1B00513A3A /* Airdrop */,
+				075FD30F1A34AB1B00513A3A /* AirdropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075FD2F91A34AB1B00513A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FD3061A34AB1B00513A3A /* Main.storyboard in Resources */,
+				075FD3251A34B4CB00513A3A /* imagen2.png in Resources */,
+				075FD30B1A34AB1B00513A3A /* LaunchScreen.xib in Resources */,
+				075FD3081A34AB1B00513A3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FD30E1A34AB1B00513A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075FD2F71A34AB1B00513A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FD3231A34B4C000513A3A /* URLViewController.swift in Sources */,
+				075FD3221A34B4C000513A3A /* ImagenViewController.swift in Sources */,
+				075FD3031A34AB1B00513A3A /* ViewController.swift in Sources */,
+				075FD3011A34AB1B00513A3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FD30C1A34AB1B00513A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FD3171A34AB1B00513A3A /* AirdropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075FD3121A34AB1B00513A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075FD2FA1A34AB1B00513A3A /* Airdrop */;
+			targetProxy = 075FD3111A34AB1B00513A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075FD3041A34AB1B00513A3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FD3051A34AB1B00513A3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		075FD3091A34AB1B00513A3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FD30A1A34AB1B00513A3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075FD3181A34AB1B00513A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075FD3191A34AB1B00513A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075FD31B1A34AB1B00513A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Airdrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		075FD31C1A34AB1B00513A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Airdrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		075FD31E1A34AB1B00513A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirdropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airdrop.app/Airdrop";
+			};
+			name = Debug;
+		};
+		075FD31F1A34AB1B00513A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirdropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airdrop.app/Airdrop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075FD2F61A34AB1B00513A3A /* Build configuration list for PBXProject "Airdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FD3181A34AB1B00513A3A /* Debug */,
+				075FD3191A34AB1B00513A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075FD31A1A34AB1B00513A3A /* Build configuration list for PBXNativeTarget "Airdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FD31B1A34AB1B00513A3A /* Debug */,
+				075FD31C1A34AB1B00513A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		075FD31D1A34AB1B00513A3A /* Build configuration list for PBXNativeTarget "AirdropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FD31E1A34AB1B00513A3A /* Debug */,
+				075FD31F1A34AB1B00513A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075FD2F31A34AB1B00513A3A /* Project object */;
+}
