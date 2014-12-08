@@ -32,14 +32,14 @@ class NuevoContactoViewController: UIViewController {
         
         delegate?.nuevoContacto(contacto)
         
-        dismissViewControllerAnimated(true , completion: nil)
+        dismissViewControllerAnimated(true, completion: nil)
         
     }
     
     
     @IBAction func cancelarPushButton(sender: AnyObject) {
         
-        dismissViewControllerAnimated(true , completion: nil)
+        dismissViewControllerAnimated(true, completion: nil)
         
     }
     
